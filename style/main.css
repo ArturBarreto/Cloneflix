@@ -13,7 +13,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:white;
 }
 
@@ -58,6 +58,7 @@ header nav a:hover {
 .filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .filme-principal .titulo {
@@ -75,6 +76,7 @@ header nav a:hover {
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
+    width: fit-content;
 }
 
 .filme-principal .botao:hover {
@@ -90,12 +92,12 @@ header nav a:hover {
     margin-left: 20px;
 }
 
-.filme-principal .container {
-    width: 40%;
-}
-
 .box-filme {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
